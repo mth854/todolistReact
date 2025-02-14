@@ -1,0 +1,56 @@
+
+  /* Game container */
+  .game-container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 90%;
+  }
+  
+  /* Scoreboard */
+  .scoreboard {
+    margin-bottom: 20px;
+  }
+  
+  /* Game Button */
+  .game-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .game-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .game-button:active {
+    transform: scale(1);
+  }
+  
+  /* Game Over Screen */
+  .game-over {
+    margin-top: 20px;
+  }
+  
+  .reset-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #e64a19;
+  }
+  
